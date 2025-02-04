@@ -55,25 +55,25 @@ This weather app was built with a focus on:
 - Local storage for persistent data
 - Error handling and loading states
 
-##Best Practices Implemented
+#Best Practices Implemented
 
 
-# Type Safety
+## Type Safety
 - TypeScript interfaces for API responses
 - Strict type checking
 - Type-safe custom hooks
 
-# Performance Optimization
+## Performance Optimization
 - React Query for caching
 - Debounced search
 - Lazy loading of components
 
-# Error Handling
+## Error Handling
 - API error handling
 - Geolocation error handling
 - Fallback UI components
 
-# State Management
+## State Management
 - Local storage for persistence
 - React Query for server state
 - Custom hooks for reusable logic
