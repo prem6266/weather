@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import Layout from "./components/Layout";
@@ -23,7 +23,7 @@ const queryClient = new QueryClient({
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <HashRouter>
+      <BrowserRouter>
         <ThemeProvider defaultTheme="dark">
           <Layout>
             <Routes>
@@ -33,7 +33,7 @@ function App() {
           </Layout>
           <Toaster richColors />
         </ThemeProvider>
-      </HashRouter>
+      </BrowserRouter>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
