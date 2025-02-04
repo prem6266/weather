@@ -1,16 +1,17 @@
 {
-  "homepage": "https://prem6266/github.io/weather-dashboard",
+  "homepage": "https://prem6266.github.io/weather-dashboard",
   "name": "weather-dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "deploy:all": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.2",
