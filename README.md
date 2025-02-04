@@ -56,7 +56,9 @@ This weather app was built with a focus on:
 - Error handling and loading states
 
 ##Best Practices Implemented
- # Type Safety
+
+
+# Type Safety
 - TypeScript interfaces for API responses
 - Strict type checking
 - Type-safe custom hooks
